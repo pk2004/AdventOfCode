@@ -12,3 +12,7 @@ with open('input','r') as f:
 
 elvesFood.sort()
 print ("Elf with the most calories has: ", elvesFood[-1])
+
+# Part 2
+totalCaloriesOfTop3Elves = sum(elvesFood[-3:])
+print ("Total calories of top 3 elves: ", totalCaloriesOfTop3Elves)
